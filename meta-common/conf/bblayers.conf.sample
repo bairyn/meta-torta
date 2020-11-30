@@ -11,6 +11,7 @@ BBLAYERS ?= " \
 	${TOPDIR}/../sources/meta-openembedded/meta-python \
 	${TOPDIR}/../sources/meta-openembedded/meta-webserver \
 	${TOPDIR}/../sources/poky/meta-poky \
+	${TOPDIR}/../sources/meta-python2 \
 	${TOPDIR}/../sources/meta-uav \
 	${TOPDIR}/../sources/meta-tegra \
 	${TOPDIR}/../sources/meta-torta \
