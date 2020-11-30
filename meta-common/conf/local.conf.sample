@@ -687,4 +687,4 @@ VIRTUAL-RUNTIME_login_manager = "shadow-base"
 VIRTUAL-RUNTIME_init_manager = "systemd"
 VIRTUAL-RUNTIME_initscripts = "systemd-compat-units"
 
-NVIDIA_DEVNET_MIRROR = "${TOPDIR}/local/sdkm_downloads"
+NVIDIA_DEVNET_MIRROR = "${TOPDIR}/../local/sdkm_downloads"
