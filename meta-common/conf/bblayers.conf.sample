@@ -13,6 +13,7 @@ BBLAYERS ?= " \
 	${TOPDIR}/../sources/poky/meta-poky \
 	${TOPDIR}/../sources/meta-python2 \
 	${TOPDIR}/../sources/meta-qt4 \
+	${TOPDIR}/../sources/meta-qt5 \
 	${TOPDIR}/../sources/meta-uav \
 	${TOPDIR}/../sources/meta-tegra \
 	${TOPDIR}/../sources/meta-torta \
