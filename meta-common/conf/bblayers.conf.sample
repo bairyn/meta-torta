@@ -14,10 +14,10 @@ BBLAYERS ?= " \
 	${TOPDIR}/../sources/meta-python2 \
 	${TOPDIR}/../sources/meta-qt4 \
 	${TOPDIR}/../sources/meta-qt5 \
-	${TOPDIR}/../sources/meta-uav \
 	${TOPDIR}/../sources/meta-tegra \
 	${TOPDIR}/../sources/meta-torta \
 	${TOPDIR}/../sources/meta-torta/meta-common \
 "
+#	${TOPDIR}/../sources/meta-uav /
 
 LAYERSERIES_COMPAT_qt4-layer_append = " dunfell"
