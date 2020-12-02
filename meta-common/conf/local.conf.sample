@@ -1,6 +1,9 @@
 DISTRO  ?= "torta"
 MACHINE ?= "jetson-tx2"
 
+#BB_NUMBER_THREADS ?= "32"
+#PARALLEL_MAKE ?= "-j 32"
+
 # Enable build-*/buildhistory repo (c.f. 7.28.1 Enabling and Disabling Build
 # History from the Yocto mega manual).
 INHERIT += "buildhistory"
