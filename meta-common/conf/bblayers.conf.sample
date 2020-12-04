@@ -20,4 +20,4 @@ BBLAYERS ?= " \
 "
 #	${TOPDIR}/../sources/meta-uav /
 
-LAYERSERIES_COMPAT_qt4-layer_append = " dunfell"
+LAYERSERIES_COMPAT_qt4-layer_append = " gatesgarth"
