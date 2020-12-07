@@ -15,6 +15,7 @@ BBLAYERS ?= " \
 	${TOPDIR}/../sources/meta-qt4 \
 	${TOPDIR}/../sources/meta-qt5 \
 	${TOPDIR}/../sources/meta-tegra \
+	${TOPDIR}/../sources/meta-tegra/contrib \
 	${TOPDIR}/../sources/meta-torta \
 	${TOPDIR}/../sources/meta-torta/meta-common \
 "
