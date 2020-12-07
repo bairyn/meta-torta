@@ -9,6 +9,10 @@ MACHINE ?= "jetson-tx2"
 INHERIT += "buildhistory"
 BUILDHISTORY_COMMIT = "1"
 
+# Use GCC 8 for meta-tegra.
+GCCVERSION = "8.%"
+require contrib/conf/include/gcc-compat.conf
+
 # ################################################################
 # Copied from poky@warrior/meta/poky/conf/local.conf.sample as of 2019-05-07.
 
